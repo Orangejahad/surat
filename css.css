@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #191919;
+    box-sizing: border-box;
+  
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+}
+.banner video{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.header h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+   margin-top: 40px;
+   margin-left:  20px ;
+   text-transform: uppercase;
+   background-color: #191919;
+   color: white;
+   width: 200px;
+}
+.surat p{
+    background-color: white;
+    height: 1000px;
+    width: 500px;
+    margin-left: 300px;
+   margin-right: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 450px;
+    padding-top: 50px ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.surat img {
+    height: 150px;
+    width: 150px;
+}
+.surat a{
+    text-decoration: none;
+    color: #191919;
+
+}
+.surat a:hover{
+    color: white;
+    background: #0D4C92;
+    height: 50px;
+}
